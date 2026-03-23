@@ -7,6 +7,7 @@ CREATE TABLE Products (
     name VARCHAR(255) NOT NULL,
     price DECIMAL(10,2) NOT NULL,
     category VARCHAR(100) NOT NULL,
+    image VARCHAR(500) NOT NULL,
     source VARCHAR(50) NOT NULL DEFAULT 'fakestore',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -22,3 +23,5 @@ CREATE TABLE CartItems (
 );
 
 set global time_zone = '-6:00';
+
+SELECT * FROM Products;

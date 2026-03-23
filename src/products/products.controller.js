@@ -22,6 +22,7 @@ export const syncProducts = async (req, res) => {
                 product.title,
                 product.price,
                 product.category,
+                product.image,
                 'fakestore'
             ]);
         }

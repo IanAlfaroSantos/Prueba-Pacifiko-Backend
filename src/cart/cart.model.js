@@ -27,6 +27,7 @@ export const getCartQuery = `
         c.product_id,
         p.name,
         p.price,
+        p.image,
         c.quantity,
         (p.price * c.quantity) AS subtotal,
         c.created_at
