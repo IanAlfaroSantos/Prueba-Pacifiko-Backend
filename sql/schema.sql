@@ -23,5 +23,3 @@ CREATE TABLE CartItems (
 );
 
 set global time_zone = '-6:00';
-
-SELECT * FROM Products;
